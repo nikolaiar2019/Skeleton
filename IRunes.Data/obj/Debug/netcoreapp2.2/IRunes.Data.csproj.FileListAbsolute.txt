@@ -1,0 +1,12 @@
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\bin\Debug\netcoreapp2.2\IRunes.Data.deps.json
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\bin\Debug\netcoreapp2.2\IRunes.Data.dll
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\bin\Debug\netcoreapp2.2\IRunes.Data.pdb
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\bin\Debug\netcoreapp2.2\IRunes.Models.dll
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\bin\Debug\netcoreapp2.2\IRunes.Models.pdb
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\obj\Debug\netcoreapp2.2\IRunes.Data.csprojAssemblyReference.cache
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\obj\Debug\netcoreapp2.2\IRunes.Data.csproj.CoreCompileInputs.cache
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\obj\Debug\netcoreapp2.2\IRunes.Data.AssemblyInfoInputs.cache
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\obj\Debug\netcoreapp2.2\IRunes.Data.AssemblyInfo.cs
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\obj\Debug\netcoreapp2.2\IRunes.Data.csproj.CopyComplete
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\obj\Debug\netcoreapp2.2\IRunes.Data.dll
+C:\Users\n.markov\Desktop\04. CSharp-Web-Basics-Workshop-Web-Application-Advanced-CSS-Bootstrap-Skeleton\IRunes.Data\obj\Debug\netcoreapp2.2\IRunes.Data.pdb
