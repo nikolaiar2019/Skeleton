@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Runtime.CompilerServices;
+using IRunes.Models;
 using SIS.HTTP.Enums;
 using SIS.HTTP.Requests.Contracts;
 using SIS.HTTP.Responses.Contracts;
@@ -27,11 +28,23 @@ namespace IRunes.App.Controllers
 
             return viewContent;
         }
+
+
         protected bool IsLoggedIn(IHttpRequest request)
         {
             return request.Session.ContainsParameter("username");
         }
 
+        protected void SignIn(IHttpRequest httpRequest, User user)
+        {
+            httpRequest.Session.AddParameter("id",user.Id);
+            httpRequest.Session.AddParameter("username",user.Username);
+            httpRequest.Session.AddParameter("email",user.Email);
+        }
+        protected void SignOut(IHttpRequest httpRequest)
+        {
+            httpRequest.Session.ClearParameters();
+        }
         protected IHttpResponse View([CallerMemberName] string view = null)
         {
             string controllerName = this.GetType().Name.Replace("Controller", string.Empty);
