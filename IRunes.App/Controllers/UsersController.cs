@@ -30,18 +30,18 @@ namespace IRunes.App.Controllers
                 string username = ((ISet<string>)httpRequest.FormData["username"]).FirstOrDefault();
                 string password = ((ISet<string>)httpRequest.FormData["password"]).FirstOrDefault();
 
-                User userFromDB =
+                User userFromDb =
                     context.Users
                         .FirstOrDefault(user => (user.Username == username 
                                                  || user.Email == username)
                                                 && user.Password == this.HashPassword(password));
 
-                if (userFromDB == null)
+                if (userFromDb == null)
                 {
                     return this.Redirect("/Users/Login");
                 }
 
-                this.SignIn(httpRequest, userFromDB);
+                this.SignIn(httpRequest, userFromDb);
             }
 
             return this.Redirect("/");

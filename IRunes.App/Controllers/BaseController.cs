@@ -22,7 +22,7 @@ namespace IRunes.App.Controllers
         {
             foreach (var param in this.ViewData)
             {
-                viewContent = viewContent.Replace($"@model.{param.Key}",
+                viewContent = viewContent.Replace($"@Model.{param.Key}",
                     param.Value.ToString());
             }
 
