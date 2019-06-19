@@ -76,7 +76,21 @@ namespace IRunes.App.Controllers
             {
                 return this.Redirect("/Users/Login");
             }
-            return this.View();
+
+            string albumId = httpRequest.QueryData["id"].ToString();
+
+            using (var context = new RunesDbContext())
+            {
+                Album albumFromDb = context.Albums.SingleOrDefault(album => album.Id == albumId);
+
+                if (albumFromDb == null)
+                {
+                    return this.Redirect("/Albums/All");
+                }
+
+                this.ViewData["Album"] = albumFromDb.ToHtmlDetails();
+                return this.View();
+            }
         }
     }
 }
